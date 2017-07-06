@@ -8,17 +8,17 @@ namespace Ejercicio06
 {
     public class Data
     {
-        protected  String Mensaje ="Estos son los numeros: ";
-        protected int Num1 = 5;
-        protected int Num2 = 8;
+        public  String Mensaje ="Estos son los numeros: ";
+        public int Num1 = 5;
+        public int Num2 = 8;
     }
 
-    public class Metodo : Data
+    public class Metodo
     {
-
+        Data Datos = new Data();
         public String Concatenar ()
         {
-            return Mensaje + Num1 + " y " + Num2;
+            return Datos.Mensaje + Datos.Num1 + " y " + Datos.Num2;
         }
     }
 }
