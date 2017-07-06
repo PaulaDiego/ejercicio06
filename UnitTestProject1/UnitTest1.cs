@@ -10,8 +10,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Metodo mt = new Metodo();
-            mt.Concatenar();
+            Metodo sut = new Metodo();
+            sut.Concatenar();
 
         }
     }
