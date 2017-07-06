@@ -8,9 +8,9 @@ namespace Ejercicio06
 {
     public class Data
     {
-        public  String Mensaje ="Estos son los numeros: ";
-        public int Num1 = 5;
-        public int Num2 = 8;
+        protected  String Mensaje ="Estos son los numeros: ";
+        protected int Num1 = 5;
+        protected int Num2 = 8;
     }
 
     public class Metodo : Data
