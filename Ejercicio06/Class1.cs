@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Ejercicio06
 {
-    public class Class1
+    public class Data
     {
+        public  String Mensaje ="Estos son los numeros: ";
+        public int Num1 = 5;
+        public int Num2 = 8;
+    }
+
+    public class Metodo : Data
+    {
+
+        public String Concatenar ()
+        {
+            return Mensaje + Num1 + " y " + Num2;
+        }
     }
 }
